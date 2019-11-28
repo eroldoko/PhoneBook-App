@@ -1,0 +1,47 @@
+  #add-view {
+    display: none;
+  }
+
+  #edit-view {
+    display: none;
+  }
+
+  #edit-contact-view {
+    display: none;
+    background: rgb(32, 31, 31);
+  }
+
+  #title {
+    margin-bottom: 20px;
+  }
+
+  #search {
+    margin: auto;
+    margin-top: 15px;
+    width: 280px;
+  }
+
+  .search {
+    height: 30px;
+    line-height: 2px;
+    border: 1px solid gray;
+    color: #000;
+    margin: 0 auto;
+  }
+
+  .search:hover {
+    background-color: #0069D9;
+    color: #fff;
+  }
+
+  @media(max-width:700px) {
+    #numberTh, #mailTh, #numberTd, #mailTd {
+      display: none;
+    }
+  }
+body{
+  background: rgb(27, 24, 24);
+}
+.page-header{
+  color: #fff;
+}
