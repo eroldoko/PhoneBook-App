@@ -339,9 +339,9 @@ function changeContact() {
 
 //logic for filtering contacts upon typing the first three letters at a time
 function searchInput() {
-    // let filter = search.value.toUpperCase();
+    //let filter = search.value.toUpperCase();
   dbFirstLetter = db.filter((el) => {
-    // return el.name2.toUpperCase().indexOf(filter) > -1
+    //return el.name2.toUpperCase().indexOf(filter) > -1
     return el.name1.toUpperCase().charAt(0) == search.value.toUpperCase().charAt(0)
   })
   dbNameMatch = dbFirstLetter.filter((el) => {
@@ -519,7 +519,6 @@ function dbEditLetter1() {
     text += '<td><button id = "' + i + '" class="btn btn-warning edit" data-num="' + i + '">&nbsp; Edit &nbsp;</button></td>';
     text += '</tr>';
   }
-
   editTbody.innerHTML = text;
   let deleteBtns = document.querySelectorAll('.delete');
   let editBtns = document.querySelectorAll('.edit');
@@ -541,7 +540,6 @@ function dbEditLetter2() {
     text += '</tr>';
   }
   editTbody.innerHTML = text;
-
   let deleteBtns = document.querySelectorAll('.delete');
   let editBtns = document.querySelectorAll('.edit');
   for (var j = 0; j < deleteBtns.length; j++) {

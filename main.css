@@ -34,14 +34,16 @@
     color: #fff;
   }
 
-  @media(max-width:700px) {
+  @media(max-width:800px) {
     #numberTh, #mailTh, #numberTd, #mailTd {
       display: none;
     }
   }
-body{
-  background: rgb(27, 24, 24);
-}
-.page-header{
-  color: #fff;
-}
+
+  body {
+    background: rgb(27, 24, 24);
+  }
+
+  .page-header {
+    color: #fff;
+  }
