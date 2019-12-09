@@ -233,8 +233,6 @@ function deleteContact1() {
 function deleteContact2() {
   let index = this.id;
   for (var i = 0; i < db.length; i++) {
-
-
     if (dbSecondLetter[index].tel == db[i].tel) {
       db.splice(i, 1);
       dbSecondLetter.splice(index, 1);
